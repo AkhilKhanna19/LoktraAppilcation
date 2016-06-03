@@ -11,5 +11,5 @@ Application to show the commits of a repository on a listview
 
 
 
-RecyclerView.java file is the activity where CustomRecyclerView.java file is used. These two files provide the recyclerView of the commits of a repository which is a part of material design.
+RecyclerView.java file is the activity where CustomRecyclerView.java file is used. These two files provide the recyclerView of the commits of a repository which is a part of material design. RecyclerView is better and efficient than listview.
 
