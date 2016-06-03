@@ -60,8 +60,8 @@ class CustomViewAdapter extends BaseAdapter {
 
 
             name.setText(mMessage.get("name"));
-            emailid.setText(mMessage.get("email"));
-            commit.setText(mMessage.get("commit"));
+            emailid.setText("Email id:" +mMessage.get("email"));
+            commit.setText("Commit message:" +mMessage.get("commit"));
 
 
 
