@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/author_name"
+        android:text="author name"
+        android:textColor="#060606"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_id"
+        android:text="Email id"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textColor="#060606"
+        android:layout_below="@+id/author_name"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commit_message"
+        android:text="commit message"
+        android:textSize="10sp"
+        android:textColor="#060606"
+        android:layout_below="@+id/email_id"/>
+
+
+</RelativeLayout>
