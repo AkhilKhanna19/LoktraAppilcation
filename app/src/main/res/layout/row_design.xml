@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="100dp">
+    android:layout_width="match_parent" android:layout_height="150dp">
 
 
     <TextView
@@ -29,7 +29,15 @@
         android:text="commit message"
         android:textSize="10sp"
         android:textColor="#060606"
-        android:layout_below="@+id/email_id"/>
+        android:layout_below="@+id/image_id"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/image_id"
+
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher"/>
 
 
 </RelativeLayout>

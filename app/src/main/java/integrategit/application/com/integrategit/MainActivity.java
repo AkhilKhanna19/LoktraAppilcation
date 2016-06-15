@@ -24,19 +24,22 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
-    private String url = "https://api.github.com/repos/arunagw/rails/commits";
+    private String url = "https://api.github.com/repos/";
     private ListView listView;
     CustomViewAdapter customViewAdapter;
-    private String name,email,message;
+    private String name,email,message, repoNam, repo, avatar;
     ArrayList<HashMap<String, String>> authorCommit = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Bundle extras = getIntent().getExtras();
+        repoNam = extras.getString("name");
+        repo = extras.getString("repo");
 
 
-        getJsondata(url);
+        getJsondata(url+repoNam+"/"+repo+"/commits");
     }
 
     private void getJsondata(String url) {
@@ -48,7 +51,11 @@ public class MainActivity extends AppCompatActivity {
                     try {
                         JSONObject object = response.getJSONObject(i);
                         JSONObject commit = object.getJSONObject("commit");
+                        JSONObject auth = object.getJSONObject("author");
+                        avatar = auth.getString("avatar_url");
+
                         JSONObject author = commit.getJSONObject("author");
+
                         HashMap<String,String> comm = new HashMap<>();
                         name = author.getString("name");
                         email = author.getString("email");
@@ -57,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
                         comm.put("name",name);
                         comm.put("email", email);
                         comm.put("commit",message);
+                        comm.put("image",avatar);
+                        //Toast.makeText(getApplicationContext(),avatar, Toast.LENGTH_LONG).show();
+
                         authorCommit.add(comm);
 
                         listView = (ListView) findViewById(R.id.list_item_id);

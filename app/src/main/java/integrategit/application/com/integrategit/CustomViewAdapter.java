@@ -1,11 +1,14 @@
 package integrategit.application.com.integrategit;
 
 import android.content.Context;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,6 +20,7 @@ class CustomViewAdapter extends BaseAdapter {
     private Context mContext;
     private ArrayList<HashMap<String, String>> messages;
     private static LayoutInflater inflater = null;
+    private SimpleDraweeView simpleDraweeView;
 
 
     public CustomViewAdapter(Context context, ArrayList<HashMap<String, String>> data) {
@@ -47,8 +51,8 @@ class CustomViewAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View view = convertView;
 
-        if (convertView == null) {
 
+        if (convertView == null)
             view = inflater.inflate(R.layout.row_design, null);
             TextView name = (TextView) view.findViewById(R.id.author_name);
             TextView emailid = (TextView) view.findViewById(R.id.email_id);
@@ -64,12 +68,19 @@ class CustomViewAdapter extends BaseAdapter {
             commit.setText("Commit message:" +mMessage.get("commit"));
 
 
+            Uri uri= Uri.parse(mMessage.get("image"));
+            simpleDraweeView = (SimpleDraweeView) view.findViewById(R.id.image_id);
+            simpleDraweeView.setImageURI(uri);
 
 
 
 
-        }
+
+
+
+        
         return view;
     }
 }
+
 

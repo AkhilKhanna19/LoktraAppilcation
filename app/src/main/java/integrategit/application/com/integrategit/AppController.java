@@ -10,6 +10,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
+import com.facebook.drawee.backends.pipeline.Fresco;
 
 /**
  * Created by Akhil Khanna on 22-Mar-16.
@@ -68,3 +69,7 @@ public class AppController extends Application {
         }
     }
 }
+
+    /**
+     * Created by akhil on 15/6/16.
+     */

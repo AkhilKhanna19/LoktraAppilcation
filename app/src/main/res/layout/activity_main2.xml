@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_name"
         android:id="@+id/email_id_d"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textColor="#060606"
         android:textStyle="italic"
 
@@ -35,7 +35,7 @@
         android:id="@+id/message_commit"
         android:text="Coomit message"
         android:textColor="#060606"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:layout_centerVertical="true"
 
         />
