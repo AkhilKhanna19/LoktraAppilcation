@@ -2,116 +2,109 @@
 <items version="2" >
 
     <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
+        jar="/home/akhil/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_a84c72c59a069f10abe242a3eb5c95876077a97e/classes.dex" />
-    </item>
-    <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_4489e7d445c8b469d812bab64c303b38b9beeba4/classes.dex" />
-    </item>
-    <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="85249615dda9c0fd216c865743f7a22a1e1af659">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_99666da04031a9c165c849fb3d8e6661aa25313a/classes.dex" />
-    </item>
-    <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-drawee-0.10.0_8267c3dc64cbd57b287d052f180ad27a4f4fa994/classes.dex" />
-    </item>
-    <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_1fb171776bb22728ac1c47188de09e7d612646da/classes.dex" />
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_1cd1ed5790e3ad552627534463e6710382b11860.jar" />
     </item>
     <item
         jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="23.0.3"
         sha1="857099e23430445aeb65cf703d5adf646ff280f1">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fresco-0.10.0_9319660bfdd59f8429aeda9db25c56d56fc64e29/classes.dex" />
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.10.0_9319660bfdd59f8429aeda9db25c56d56fc64e29.jar" />
     </item>
     <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_0fc46d574cf9f2bd8319afacea739173acc4e74e/classes.dex" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_4489e7d445c8b469d812bab64c303b38b9beeba4.jar" />
     </item>
     <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-base-0.10.0_cf78681bcb73a21f3d2ee8e5f6a247f6f0c998a3/classes.dex" />
-    </item>
-    <item
-        jar="/home/akhil/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.1.4_3ee6d1807fe570b7b7de29834cb7c2283c561ae0/classes.dex" />
-    </item>
-    <item
-        jar="/home/akhil/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_1cd1ed5790e3ad552627534463e6710382b11860/classes.dex" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_a84c72c59a069f10abe242a3eb5c95876077a97e.jar" />
     </item>
     <item
         jar="/home/akhil/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="23.0.3"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_3271ac9fe76ee649cf2bc3306669d4c9f7797ea7/classes.dex" />
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/library-2.4.0_3271ac9fe76ee649cf2bc3306669d4c9f7797ea7.jar" />
     </item>
     <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-imagepipeline-0.10.0_223014f42f7c01e98df04d34225a8a712b22588f/classes.dex" />
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_1bc1f0072a4355180bb55c67dd2c893a37eb5657.jar" />
+    </item>
+    <item
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.10.0_8267c3dc64cbd57b287d052f180ad27a4f4fa994.jar" />
     </item>
     <item
         jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="23.0.3"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_948a2360af8818cbe0cf78cf880e110be64223cb/classes.dex" />
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_948a2360af8818cbe0cf78cf880e110be64223cb.jar" />
+    </item>
+    <item
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.10.0_223014f42f7c01e98df04d34225a8a712b22588f.jar" />
     </item>
     <item
         jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="23.0.3"
         sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_ed3323a0119911260b97b732774dacda0efa42a7/classes.dex" />
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_ed3323a0119911260b97b732774dacda0efa42a7.jar" />
+    </item>
+    <item
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_1fb171776bb22728ac1c47188de09e7d612646da.jar" />
     </item>
     <item
         jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         revision="23.0.3"
         sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.fresco-fbcore-0.10.0_821c9eb36d1265a212102045d58c0b93ad29e2d0/classes.dex" />
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.10.0_821c9eb36d1265a212102045d58c0b93ad29e2d0.jar" />
     </item>
     <item
-        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="9196900eef092e2dc3233b80469b2fe04821955f">
-        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_077d62435170153def89f6d367ec3cfc42b4f1a0/classes.dex" />
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.10.0_cf78681bcb73a21f3d2ee8e5f6a247f6f0c998a3.jar" />
+    </item>
+    <item
+        jar="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_0fc46d574cf9f2bd8319afacea739173acc4e74e.jar" />
+    </item>
+    <item
+        jar="/home/akhil/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/akhil/AndroidStudioProjects/IntegrateGit/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_3ee6d1807fe570b7b7de29834cb7c2283c561ae0.jar" />
     </item>
 
 </items>
