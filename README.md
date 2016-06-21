@@ -1,4 +1,8 @@
 # LoktraAppilcation
+Application with search facility
+<a href="http://tinypic.com?ref=noam2t" target="_blank"><img src="http://i67.tinypic.com/noam2t.png" border="0" alt="Image and video hosting by TinyPic"></a>
+
+
 Application to show the commits of a repository on a listview. Used Volley Library to connect to the GitHub Api.
 
 
